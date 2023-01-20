@@ -1,0 +1,492 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+
+
+@media only screen and (min-width: 1919px) and (min-height: 1079px) {
+
+  /* set height for the second column default */
+  div[data-automation-id="CanvasLayout"]:last-child > div[data-automation-id="CanvasZone"]:first-child > div > div
+  {
+    top: 0vh !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 1919px)
+{
+  // div[data-automation-id="CanvasLayout"]:last-child > div[data-automation-id="CanvasZone"]:first-child > div > div[data-automation-id="CanvasSection"] > div[data-automation-id="CanvasControl"] {
+  //   width: 21%;
+  // }
+  //parent button 1
+  // ------------------------
+  .ParentButton1 {
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-top-left-radius: 200px !important;
+    }
+
+  .ParentButton2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    }
+
+  .ParentButton3 {
+    border-top-left-radius: 200px !important;
+    border-bottom-left-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    }
+
+  .ParentButton4 {
+    border-top-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+  }
+
+  //button 1 (child)
+  // ----------------
+  .list0 {
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-top-left-radius: 200px !important;
+    }
+
+  .list2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    }
+
+  .list3 {
+    border-top-left-radius: 200px !important;
+    border-bottom-left-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    }
+
+  .list4 {
+    border-top-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+  }
+  
+}
+
+@media only screen and (min-width: 1919px)
+{
+ 
+  //parent button 1
+  // ------------------------
+  .ParentButton1 {
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-top-left-radius: 200px !important;
+    min-width: 98% !important;
+    }
+
+  .ParentButton2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-width: 98% !important;
+    }
+
+  .ParentButton3 {
+    border-top-left-radius: 200px !important;
+    border-bottom-left-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-width: 98% !important;
+    }
+
+  .ParentButton4 {
+    border-top-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-width: 98% !important;
+  }
+
+  //button 1 (child)
+  // ----------------
+  .list0 {
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-top-left-radius: 200px !important;
+    min-height: 9vh !important;
+    }
+
+  .list2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-height: 9vh !important;
+    }
+
+  .list3 {
+    border-top-left-radius: 200px !important;
+    border-bottom-left-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-height: 9vh !important;
+    }
+
+  .list4 {
+    border-top-left-radius: 200px !important;
+    border-top-right-radius: 200px !important;
+    border-bottom-right-radius: 200px !important;
+    min-height: 9vh !important;
+  }
+  
+}
+
+@media only screen and (max-height: 725px)
+{
+
+  .logo{
+    height: 4.5vh !important;
+
+  }
+  .firstButton
+  {
+    margin-right: 1.1vh !important;
+  }
+
+  
+}
+
+/// first button media screen
+/// -------------------------------------------
+@media only screen and (min-height: 901px)
+{
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 10vh !important;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 900px)
+{
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 9vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 9vh !important;
+  }
+
+}
+
+@media only screen and (min-height: 725px) and (max-height: 775px)
+{
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 8.4vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 8.4vh !important;
+  }
+
+  .secondButton
+  {
+    min-height: 18vh !important;
+  }
+}
+
+@media only screen and (min-height: 776px) and (max-height: 799px)
+{
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 8.3vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 8.3vh !important;
+  }
+
+  .secondButton
+  {
+    min-height: 19vh !important;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 850px)
+{
+  .secondButton
+  {
+    min-height: 18vh !important;
+  }
+}
+
+
+/// this is for to makesure webpart same size with this webpart
+// ----------------------------------------------------------
+@media only screen and (min-height: 654px) and (max-height: 678px)
+{
+  .secondButton
+  {
+    min-height: 18vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 7.5vh !important;
+  }
+}
+
+@media only screen and (min-height: 679px) and (max-height: 724px)
+{
+  .secondButton
+  {
+    min-height: 16vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 7.7vh !important;
+  }
+
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 9vh !important;
+  }
+}
+
+@media only screen and (min-height: 850px) and (max-height: 877px)
+{
+  .secondButton
+  {
+    min-height: 18.4vh !important;
+  }
+
+}
+@media only screen and (min-height: 878px) and (max-height: 900px)
+{
+  .secondButton
+  {
+    min-height: 19vh !important;
+  }
+}
+
+@media only screen and (min-height: 901px) and (max-height: 1100px)
+{
+  .secondButton
+  {
+    min-height: 19.5vh !important;
+  }
+}
+
+@media only screen and (min-height: 1101px) and (max-height: 1200px)
+{
+  .secondButton
+  {
+    min-height: 20.5vh !important;
+  }
+}
+
+@media only screen and (min-height: 1201px) and (max-height: 1250px)
+{
+  .secondButton
+  {
+    min-height: 21vh !important;
+  }
+}
+
+@media only screen and (min-height: 1251px) and (max-height: 1300px)
+{
+  .secondButton
+  {
+    min-height: 21.4vh !important;
+  }
+}
+
+@media only screen and (min-height: 1301px) and (max-height: 1350px)
+{
+  .secondButton
+  {
+    min-height: 21.7vh !important;
+  }
+}
+
+@media only screen and (min-height: 650px) and (max-height: 678px)
+{
+  .secondButton
+  {
+    min-height: 16vh !important;
+  }
+
+  .ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+    min-height: 7.8vh !important;
+  }
+  .list0,.list2,.list3,.list4
+  {
+    min-height: 8vh !important;
+  }
+}
+
+/// -------------------------------------------
+
+
+
+// CSS code
+.helloWord {
+  overflow: visible;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+  // display: table-caption;
+}
+
+
+.list0
+{
+  transition: .5s ease;
+  filter: grayscale(100%);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 590;
+  display: inline-block;
+  min-height: 7vh;
+  border-color: transparent;
+  min-width: 93%;
+  outline-color: #5055F1 !important;
+  box-shadow: 2px 5px 10px 0 rgb(0 0 0 / 15%);
+}
+
+.list0:hover {
+ filter: grayscale(0%);
+}
+
+.list2 {
+  transition: .5s ease;
+  filter: grayscale(100%);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 590;
+  display: inline-block;
+  min-height: 7vh;
+  border-color: transparent;
+  min-width: 93%;
+  outline-color: #5055F1 !important;
+  box-shadow: 2px 5px 10px 0 rgb(0 0 0 / 15%);
+ }
+
+ .list2:hover {
+  filter: grayscale(0%);
+}
+
+.list3 {
+  transition: .5s ease;
+    filter: grayscale(100%);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 590;
+    display: inline-block;
+    min-height: 7vh;
+    border-color: transparent;
+    min-width: 93%;
+    outline-color: #5055F1 !important;
+    box-shadow: 2px 5px 10px 0 rgb(0 0 0 / 15%);
+ }
+ .list3:hover {
+  filter: grayscale(0%);
+ }
+
+.list4 {
+    transition: .5s ease;
+    filter: grayscale(100%);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 590;
+    display: inline-block;
+    min-height: 7vh;
+    border-color: transparent;
+    min-width: 93%;
+    outline-color: #5055F1 !important;
+    box-shadow: 2px 5px 10px 0 rgb(0 0 0 / 15%);
+ }
+ .list4:hover {
+  filter: grayscale(0%);
+ }
+
+
+//parent DIV for BUTTON LIST 1
+.ParentButton1,.ParentButton2,.ParentButton3,.ParentButton4  {
+  text-align: center;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-offset: 4px;
+  margin-bottom: 1.8em;
+  align-content: space-around;
+  min-height: 7vh;
+  // min-width: 93%;
+  min-width: 99%;
+  display: inline-grid;
+  }
+
+//Text: I'm looking for
+.text {
+  color: #898a86;
+  font-family: Segoe UI Regular WestEuropean,Segoe UI,Tahoma,Arial,sans-serif;
+  font-size: 1.4rem;
+  font-weight: 590;
+  text-align: initial;
+  // padding-left: 1.1vh;
+}
+
+
+.logo
+{
+  height: 6vh;
+  // padding-left: 10%;
+}
+
+
+
+.OurSpaceimage {
+  height: 3vh;
+  display: inline-block;
+}
+
+.OurSpaceimageClassTable {
+  width: 70%;
+  text-align: initial;
+  // padding-left: 1.1vh;
+}
+
+// // //button 2
+.button2 {
+  font-weight: 590;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.15));
+  height: initial;
+  border-radius: 1vw;
+  font-size: clamp(min(10vw,.01rem),1.5vh,max(30vw,4rem));
+}
+
+
+.secondButton
+{
+  min-height: 15vh ;
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fit,minmax(28.9%,1fr));
+  justify-items: stretch;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+
+.firstButton
+{
+  max-height: 50vh!important;
+  margin-top: 2vh;
+  margin-left: 1.1vh;
+  margin-right: 0;
+}
+
